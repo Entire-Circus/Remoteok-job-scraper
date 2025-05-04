@@ -15,7 +15,7 @@ def setup_logger() -> logging.Logger:
 
     # Define the custom format to include job scraping metrics and timestamp
     formatter = logging.Formatter(
-        "WSCMS finished execution\n"
+        "Scraper finished execution\n"
         "Duration: %(duration)s seconds\n"
         "URL used: %(url)s\n"
         "Rows saved: %(rows_saved)d\n"
