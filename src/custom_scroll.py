@@ -10,7 +10,7 @@ def ask_scroll_input() -> Union[int, None]:
         int: The amount to scroll if the user inputs a valid number.
         None: If the user does not want to input a custom scroll range.
     """
-    scroll_ask = input("Do you want to input a custom page scroll range (translates to amount of jobs scraped)? Y/N: ").strip().lower()
+    scroll_ask = input("Do you want to input a custom page scroll range (translates to amount of jobs scraped)? (y/n)").strip().lower()
     if scroll_ask == "y":
         # Ensures the input is valid and continues asking until a valid input is given.
         while True:
