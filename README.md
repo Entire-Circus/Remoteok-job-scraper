@@ -4,6 +4,7 @@ RemoteOK Job Scraper
 A simple, efficient command-line tool for scraping job listings from RemoteOK using zendriver and BeautifulSoup. It allows users to collect data, track new listings since a specified date, or perform both actions. Results are saved in CSV format for further analysis.
 
 Features
+
 Command-line interface (CLI) for flexible user input
 
 Configurable scraping options stored in a config file
@@ -15,21 +16,27 @@ Easy mode selection: data collection, change detection, or both
 Date-based filtering for new listings
 
 Requirements
+
 Python 3.10+
 
 Installation
+
 Clone the repository:
 
 git clone https://github.com/Entire-Circus/remoteok-job-scraper.git
+
 cd remoteok-job-scraper
 
 Install dependencies:
 
 pip install -r requirements.txt
+
 Usage
+
 Run the scraper from the command line:
 
 python -m src.main
+
 You will be prompted to:
 
 Use existing config or enter new settings
@@ -65,4 +72,5 @@ remoteok-job-scraper/
 └── README.md
 
 License
+
 This project is intended for educational and portfolio purposes only. All rights reserved.
