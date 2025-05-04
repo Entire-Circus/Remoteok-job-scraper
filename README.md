@@ -50,7 +50,7 @@ A simple and efficient command-line tool for scraping job listings from [RemoteO
 
 - [Python 3.10+](https://www.python.org/)
 - [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)
-- [zendriver](https://pypi.org/project/zendriver/)
+- [zendriver]((https://github.com/stephanlensky/zendriver))
 - [pandas](https://pandas.pydata.org/)
 
 ---
