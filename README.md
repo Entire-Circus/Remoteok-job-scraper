@@ -14,6 +14,7 @@ A simple and efficient command-line tool for scraping job listings from [RemoteO
 
 - [Features](#features)
 - [Requirements](#requirements)
+- [Built With](#built-with)
 - [Installation](#installation)
 - [Usage & Output](#usage--output)
 - [CLI Example](#cli-example)
@@ -50,7 +51,7 @@ A simple and efficient command-line tool for scraping job listings from [RemoteO
 
 - [Python 3.10+](https://www.python.org/)
 - [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)
-- [zendriver]((https://github.com/stephanlensky/zendriver))
+- [zendriver](https://github.com/stephanlensky/zendriver)
 - [pandas](https://pandas.pydata.org/)
 
 ---
