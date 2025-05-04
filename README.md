@@ -21,6 +21,16 @@ A simple and efficient command-line tool for scraping job listings from [RemoteO
 ## Requirements
 
 - Python 3.10 or higher
+- The following Python libraries:
+  - `zendriver`
+  - `beautifulsoup4`
+  - `pandas`
+
+Install all required libraries via:
+
+```bash
+pip install -r requirements.txt
+
 
 ---
 
