@@ -57,7 +57,7 @@ Select a scraping mode:
 
 (If applicable) Enter a start date in YYYY-MM-DD format
 
-# Output:
+### Output:
 
 All scraped job listings are saved as CSV files in the /data folder
 
