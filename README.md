@@ -26,12 +26,6 @@ A simple and efficient command-line tool for scraping job listings from [RemoteO
   - `beautifulsoup4`
   - `pandas`
 
-Install all required libraries via:
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## Installation
