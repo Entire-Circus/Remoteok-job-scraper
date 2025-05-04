@@ -1,76 +1,35 @@
-# remoteok-job-scraper
+# RemoteOK Job Scraper
 
-RemoteOK Job Scraper
-A simple, efficient command-line tool for scraping job listings from RemoteOK using zendriver and BeautifulSoup. It allows users to collect data, track new listings since a specified date, or perform both actions. Results are saved in CSV format for further analysis.
+A simple and efficient command-line tool for scraping job listings from [RemoteOK](https://remoteok.com), built using `zendriver` and `BeautifulSoup`. This tool allows users to collect job data, detect new listings since a specified date, or perform both actions. The results are exported to clean, structured CSV files for further analysis.
 
-Features
+---
 
-Command-line interface (CLI) for flexible user input
+##  Features
 
-Configurable scraping options stored in a config file
+- Command-line interface (CLI) for flexible interaction
+- Configurable scraping options saved in a config file
+- Export job listings to CSV format
+- Choose between three modes:
+  - Full data collection
+  - Change detection (new jobs only)
+  - Combined mode
+- Date-based filtering for new listings
+- Clean and minimal dependency set
 
-Data export to structured CSV files
+---
 
-Easy mode selection: data collection, change detection, or both
+## Requirements
 
-Date-based filtering for new listings
+- Python 3.10 or higher
 
-Requirements
+---
 
-Python 3.10+
+## Installation
 
-Installation
+Clone the repository and install dependencies:
 
-Clone the repository:
-
+```bash
 git clone https://github.com/Entire-Circus/remoteok-job-scraper.git
-
 cd remoteok-job-scraper
-
-Install dependencies:
-
 pip install -r requirements.txt
 
-Usage
-
-Run the scraper from the command line:
-
-python -m src.main
-
-You will be prompted to:
-
-Use existing config or enter new settings
-
-Enter a custom filtered URL (optional)
-
-Choose scraping mode:
-
-(1) Data collection
-
-(2) Detect new listings
-
-(3) Both
-
-Enter a date if detecting new listings
-
-CSV files will be saved in the /data folder, and configurations in /config.
-
-Folder Structure
-
-remoteok-job-scraper/
-│
-├── config/         # Stores user configs (JSON)
-├── data/           # Output CSV files
-├── src/            # Source code
-│   ├── cli.py
-│   ├── config_handler.py
-│   ├── scraper.py
-│   ├── utils.py
-│   └── main.py
-├── .gitignore
-├── requirements.txt
-└── README.md
-
-License
-
-This project is intended for educational and portfolio purposes only. All rights reserved.
