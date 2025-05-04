@@ -32,4 +32,33 @@ Clone the repository and install dependencies:
 git clone https://github.com/Entire-Circus/remoteok-job-scraper.git
 cd remoteok-job-scraper
 pip install -r requirements.txt
+```
 
+## Usage & Output
+
+Run the scraper from the command line:
+
+```bash
+python -m src.main
+```
+You'll be prompted to:
+
+Choose whether to reuse existing configuration or enter new settings
+
+Optionally paste a filtered job search URL from RemoteOK
+
+Select a scraping mode:
+
+1 – Full data collection
+
+2 – Detect new listings since a date
+
+3 – Perform both actions
+
+(If applicable) Enter a start date in YYYY-MM-DD format
+
+# Output:
+
+All scraped job listings are saved as CSV files in the /data folder
+
+User settings and options are stored as JSON configs in the /config folder
