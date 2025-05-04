@@ -4,6 +4,24 @@ A simple and efficient command-line tool for scraping job listings from [RemoteO
 
 ---
 
+## Author
+
+- **Alexandr Lysenko** – [GitHub](https://github.com/Entire-Circus)
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage & Output](#usage--output)
+- [CLI Example](#cli-example)
+- [Sample Output](#sample-output)
+- [License](#license)
+
+---
+
 ##  Features
 
 - Command-line interface (CLI) for flexible interaction
@@ -25,6 +43,15 @@ A simple and efficient command-line tool for scraping job listings from [RemoteO
   - `zendriver`
   - `beautifulsoup4`
   - `pandas`
+
+---
+
+## Built With
+
+- [Python 3.10+](https://www.python.org/)
+- [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)
+- [zendriver](https://pypi.org/project/zendriver/)
+- [pandas](https://pandas.pydata.org/)
 
 ---
 
@@ -86,3 +113,5 @@ Influencer Marketing Intern,https://remoteok.com/.../1093103,04/05/2025,2h ago,$
 Freelance Writer,https://remoteok.com/.../1077541,05/04/2025,30d ago,$50k - $70k,Worldwide,Contractor,IAPWE,Non Tech,Content Writing,N/A
 ```
 (Links shortened for display. Actual CSV contains full URLs.)
+
+> This project was developed as a portfolio example. Feel free to explore the code.
