@@ -30,7 +30,7 @@ Install all required libraries via:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ---
 
