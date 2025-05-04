@@ -66,3 +66,11 @@ Select a scraping mode:
 All scraped job listings are saved as CSV files in the /data folder
 
 User settings and options are stored as JSON configs in the /config folder
+
+---
+
+## Example Usage
+
+Below is a sample run of the scraper CLI:
+
+![CLI Example](assets/cli_example.png)
