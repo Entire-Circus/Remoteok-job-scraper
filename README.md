@@ -98,6 +98,7 @@ User settings and options are stored as JSON configs in the /config folder
 ---
 
 ## Example Usage
+Below is example of a CLI
 <pre>
 ```
 Do you want to use existing config? (y/n): n
