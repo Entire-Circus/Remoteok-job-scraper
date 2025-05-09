@@ -114,5 +114,3 @@ Influencer Marketing Intern,https://remoteok.com/.../1093103,04/05/2025,2h ago,$
 Freelance Writer,https://remoteok.com/.../1077541,05/04/2025,30d ago,$50k - $70k,Worldwide,Contractor,IAPWE,Non Tech,Content Writing,N/A
 ```
 (Links shortened for display. Actual CSV contains full URLs.)
-
-> This project was developed as a portfolio example. Feel free to explore the code.
