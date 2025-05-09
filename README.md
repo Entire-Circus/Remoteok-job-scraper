@@ -98,10 +98,21 @@ User settings and options are stored as JSON configs in the /config folder
 ---
 
 ## Example Usage
-
-Below is a sample run of the scraper CLI:
-
-![CLI Example](assets/cli_example.png)
+<pre>
+Do you want to use existing config? (y/n): n
+Do you want to input custom URL (y/n): y
+Open the site, add neccesary filters than copy and paste the URL here: https://remoteok.com/?min_salary=10000
+Do you want to run script in data collecting mode(1) or new listings mode(2) or both(3): 3
+From want point onwards do you want new job listings type in format YYYY-MM-DD: 2025-05-01
+Do you want to input custom page scroll range(translates to amount of jobs scraped) (y/n): y
+Enter amount to scroll - 500 equals to aproximetely 50 more jobs(approximately 96 jobs by default), limit is 21000: 3000
+Scraper is finished execution
+Duration: 41.35 seconds
+URL used: https://remoteok.com/?min_salary=10000
+Rows saved: 293
+New jobs saved: 16
+Time: 2025-05-04 16:37:07
+</pre>
 
 ---
 
