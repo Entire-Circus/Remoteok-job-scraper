@@ -2,8 +2,6 @@
 
 A simple and efficient command-line tool for scraping job listings from [RemoteOK](https://remoteok.com), built using `zendriver` and `BeautifulSoup`. This tool allows users to collect job data, detect new listings since a specified date, or perform both actions. The results are exported to clean, structured CSV files for further analysis.
 
----
-
 ## Author
 
 - **Alexandr Lysenko** – [GitHub](https://github.com/Entire-Circus)
