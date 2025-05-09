@@ -99,6 +99,7 @@ User settings and options are stored as JSON configs in the /config folder
 
 ## Example Usage
 <pre>
+```
 Do you want to use existing config? (y/n): n
 Do you want to input custom URL (y/n): y
 Open the site, add neccesary filters than copy and paste the URL here: https://remoteok.com/?min_salary=10000
@@ -112,6 +113,7 @@ URL used: https://remoteok.com/?min_salary=10000
 Rows saved: 293
 New jobs saved: 16
 Time: 2025-05-04 16:37:07
+```
 </pre>
 
 ---
