@@ -17,7 +17,7 @@ A simple and efficient command-line tool for scraping job listings from [RemoteO
 - [Usage & Output](#usage--output)
 - [CLI Example](#cli-example)
 - [Sample Output](#sample-output)
-- [License](#license)
+
 
 ---
 
